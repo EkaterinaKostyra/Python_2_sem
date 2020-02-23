@@ -9,7 +9,7 @@ print('Hg')
 elif pH==35.45:
 print('Cl')
 else:
-('Что это?')
+print ('Что это?')
 Задание 2.
 a=3
 b=5
