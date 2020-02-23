@@ -1,0 +1,24 @@
+pH=float(input('Введите pH: '))
+if pH==6.94:
+print('Li')
+elif pH==54.938:
+print('Mn')
+elif pH==200.59:
+print('Hg')
+elif pH==35.45:
+print('Cl')
+else:
+('Что это?')
+Задание 2.
+a=3
+b=5
+if b>a:
+print('b')
+else:
+print('a')
+Задание 4.
+def fun1(x):
+if -2.4<=x<=5.7:
+return x**2
+else:
+print('4') 
