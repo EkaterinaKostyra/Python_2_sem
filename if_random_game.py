@@ -6,4 +6,4 @@ if 1<=x<= 4:
     print('Победа!')
 else:
     print('Попробуйте ещё раз') 
-#https://drakonhub.com/ide/doc/ekas101/2
+https://drakonhub.com/ide/doc/ekas101/3
