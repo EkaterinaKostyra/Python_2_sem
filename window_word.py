@@ -18,7 +18,7 @@ russianWords = spisok[1::2]
 englishWords = spisok[0::2]
 voc = dict(zip(englishWords, russianWords)) 
 
-def checkAnswer():
+def test():
     if entryTranslate.get().lower() == voc[rndWord.get()]:
         mb.showinfo('Победа','Вы угадали слово!')
         rndWord.set(random.choice(list(voc.keys())))
@@ -40,8 +40,8 @@ labelTranslate = Label(window, text='Укажите перевод: ')
 labelTranslate.pack()
 entryTranslate = Entry(window, width=40)
 entryTranslate.pack(padx=5)
-btnAnswer = Button(window, text='Готово!', command=checkAnswer)
-btnAnswer.pack()
-btnExit = Button(text='Выход', command=lambda x=window: x.destroy())
-btnExit.pack()
+conc = Button(window, text='Готово!', command=test)
+conc.pack()
+Exit = Button(text='Выход', command=lambda x=window: x.destroy())
+Exit.pack()
 window.mainloop()
